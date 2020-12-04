@@ -1,0 +1,72 @@
+header{text-align:center; 
+    
+ }
+
+body{
+    font-size: 25px;
+
+    
+    background-image:url(images/bling.jpg)
+    
+
+}
+.grid {
+  display: grid;
+ background-color: gold;
+ color:mediumpurple;
+  font-size: 40px;
+}
+ .box{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-family: serif;
+}
+
+@media screen and (min-width:450px)
+    
+    
+    
+{  
+    .grid{ column-count: 1 } 
+    
+    .box{  width:100%}  
+     
+
+
+}
+header{ color:mediumpurple;}
+@media screen and (min-width:700px)
+{   .box{  width:50%;
+    
+  
+    
+    }  
+   
+    .grid{   grid-template-columns: auto auto auto; }
+
+
+}
+footer{ align-content: flex-end}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
